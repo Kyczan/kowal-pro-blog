@@ -1,0 +1,15 @@
+{
+  "name": "kowal-pro-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "kowals-static-blog-generator ./src ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kowals-static-blog-generator": "^1.0.4"
+  }
+}
