@@ -38,7 +38,7 @@ jobs:
     - name: Run SSH command
       uses: garygrossgarten/github-action-ssh@v0.5.0
       with:
-        command: cd "$TARGET" && rm -rf old.build && mv public_html old.build && mv new.build public_html && mkdir new.build && cp env/.htaccess public_html
+        command: cd ${{ secrets.TARGET }} && rm -rf old.build && mv public_html old.build && mv new.build public_html && mkdir new.build && cp env/.htaccess public_html
         host: ${{ secrets.REMOTE_HOST }}
         username: ${{ secrets.REMOTE_USER }}
         privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
