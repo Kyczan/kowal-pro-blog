@@ -34,7 +34,7 @@ jobs:
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: "$TARGET/new.build"
+          TARGET: $TARGET/new.build
     - name: Run SSH command
       uses: garygrossgarten/github-action-ssh@v0.5.0
       with:
