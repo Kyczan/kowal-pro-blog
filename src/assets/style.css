@@ -144,11 +144,14 @@ pre {
   line-height: 2.6rem;
   overflow-x: auto;
   margin: 0;
+  padding: 1.2rem;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 6px;
 }
 
 pre code {
   display: inline-block;
-  background-color: inherit;
+  background-color: unset;
   color: inherit;
 }
 
@@ -158,6 +161,8 @@ code {
   font-weight: 400;
   background-color: #e0e0e0;
   color: #212121;
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
 }
 
 blockquote {
