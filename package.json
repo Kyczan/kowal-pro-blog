@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "kowals-static-blog-generator ./src ./dist"
+    "build": "kowals-static-blog-generator ./src ./dist https://kowal.pro"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kowals-static-blog-generator": "^1.1.0"
+    "kowals-static-blog-generator": "^1.2.0"
   }
 }
