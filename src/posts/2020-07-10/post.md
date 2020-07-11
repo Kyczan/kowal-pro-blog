@@ -16,6 +16,8 @@ There are [plenty](https://www.staticgen.com) of static blog generators. But I w
 
 ## Creating new blog
 
+tl;dr - check out working example - [this blog repo](https://github.com/Kyczan/kowal-pro-blog)
+
 ### Initial setup
 
 First open terminal, create new blog directory, initialize npm project inside and install `kowals-static-blog-generator`:
