@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kowals-static-blog-generator": "^1.2.0"
+    "kowals-static-blog-generator": "^1.2.1"
   }
 }
