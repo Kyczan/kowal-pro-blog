@@ -2,11 +2,12 @@
 
 # Krystian Kowal
 
-## IT Software Developer
+## JavaScript Developer
 
-`JavaScript` `ReactJS` `Redux` `NodeJS` `HTML5` `CSS3` `REST` `SQL` `PLSQL` `Git` `Webpack` `Scrum` `Linux`
+`JavaScript` `TypeScript` `ReactJS` `Redux` `NodeJS` `HTML5` `CSS3` `REST` `SQL` `PLSQL` `Git` `Webpack` `Scrum` `Linux`
 
-I like to create web applications especially with new technologies. I am an expert in frontend but I also have strong knowledge in backend. My strengths are analytical thinking and problem solving. In free time I like to learn about new technologies and innovations, for example Machine Learning.
+I ❤️ JavaScript.  
+I like creating web applications especially with new technologies. I am an expert in frontend but I also have strong knowledge in backend (JS). My strengths are analytical thinking and problem solving. In free time I like to learn about new technologies and innovations.
 
 ## Personal data
 
@@ -22,13 +23,21 @@ I like to create web applications especially with new technologies. I am an expe
 
   **Role:** IT Software Engineer (Associate Director)  
   **Responsibilities:** Creating web applications using React+Redux; collaborating with business to introduce better applications; improving existing apps  
-  **Technologies:** `JavaScript` `ReactJS` `Redux` `Webpack` `npm` `NodeJS` `Git` `Github` `CSS3` `LESS` (CSS preprocessor) `HTML5` `D3` (JS library) `TeamCity` (tool for CI - Continuous Integration) `Scrum`
+  **Technologies:** `JavaScript` `ReactJS` `Redux` `Saga` `StencilJS` `Webpack` `npm` `NodeJS` `Git` `Github` `Gitlab` `CSS3` `LESS` (CSS preprocessor) `HTML5` `D3` (JS library) `Scrum`  
+  **Projects:**  
+  - Dashboard - brand new, fully responsive homepage for UBS clients located in USA (React)
+  - Interests Questionnaire - web app that allows user to set his mindset by completing survey (React)
+  - Navigation - new, responsive navigation in online service based on native web components (StencilJS)
+  - Milestones - web app that allows user to set and follow his financial goals (React)
+  - New Experience - welcome new clients in online service with splash screen and guide them through Dashboard page (React)
 
 - ### Sep 2018 - Nov 2019 | Experis
 
-  **Role:** Frontend Developer (b2b) (Consultant in big bank)  
+  **Role:** Frontend Developer (b2b) (Consultant in a Big Swiss Bank)  
   **Responsibilities:** Creating web apps using ReactJS; introduce responsiveness to existing web apps; create and maintain custom React components library  
-  **Technologies:** `JavaScript` `ReactJS` `HTML5` `CSS3` `SemanticUI` `Webpack` `Git` `npm` `Scrum`
+  **Technologies:** `JavaScript` `ReactJS` `HTML5` `CSS3` `SemanticUI` `Webpack` `Git` `npm` `Scrum`  
+  **Projects:**  
+  - DACAT - web app that allows user to transfer his accounts from another banks to this one (React).
 
 - ### Oct 2016 - Sep 2018 | Experis
 
