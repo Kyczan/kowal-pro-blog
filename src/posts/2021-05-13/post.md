@@ -2,7 +2,7 @@
 
 ![linter](./assets/2021-05-13.jpeg)
 
-Good project has consistent code rules. To enforce them good practice is to use linters and formaters. For JS/TS the best linter is [ESLint](https://eslint.org/) and for CSS/Sass/Less - [stylelint](https://stylelint.io/). For code formating common choice is [Prettier](https://prettier.io/).
+Good project has consistent code rules. To enforce them good practice is to use linters and formatters. For JS/TS the best linter is [ESLint](https://eslint.org/) and for CSS/Sass/Less - [stylelint](https://stylelint.io/). For code formatting common choice is [Prettier](https://prettier.io/).
 
 But Prettier often conflicts with linter. So how to set them up correctly?
 
@@ -12,7 +12,7 @@ Install two extensions:
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
-There is also available [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, but we won't use it. (If you want to use Prettier alongside ESLint please reffer to [this article](https://blog.theodo.com/2019/08/empower-your-dev-environment-with-eslint-prettier-and-editorconfig-with-no-conflicts/).)
+There is also available [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, but we won't use it. (If you want to use Prettier alongside ESLint please refer to [this article](https://blog.theodo.com/2019/08/empower-your-dev-environment-with-eslint-prettier-and-editorconfig-with-no-conflicts/).)
 
 Next update VSCode settings (in `.json` format) and add following lines:
 
