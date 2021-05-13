@@ -609,12 +609,6 @@ img.emoji {
   }
 }
 
-@media print {
-  .navigation {
-    display: none;
-  }
-}
-
 .pagination {
   margin-top: 6rem;
   text-align: center;
@@ -655,7 +649,20 @@ img.emoji {
 }
 
 @media print {
+  .navigation {
+    display: none;
+  }
+
   .footer {
     display: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: revert;
   }
 }
