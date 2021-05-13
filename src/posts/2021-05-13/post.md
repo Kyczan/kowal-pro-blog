@@ -12,7 +12,7 @@ Install two extensions:
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
-There is also available [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, but we won't use it.
+There is also available [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension, but we won't use it. (If you want to use Prettier alongside ESLint please reffer to [this article](https://blog.theodo.com/2019/08/empower-your-dev-environment-with-eslint-prettier-and-editorconfig-with-no-conflicts/).)
 
 Next update VSCode settings (in `.json` format) and add following lines:
 
@@ -34,11 +34,13 @@ Now in every project that you want to lint and format code - do following things
 
 ### For ESLint
 
-Instal packages:
+In my react project I use typescript and test with jest. If you want all features to be working as mine install following packages:
 
 ```sh
-npm i -D 
+npm i -D eslint eslint-config-airbnb eslint-config-airbnb-typescript prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
+
+`eslint-config-prettier` deactivates ESLint rules that conflicts with Prettier. And `eslint-plugin-prettier` integrates Prettier with ESLint, so we can run Prettier rules just from ESLint.
 
 Next create `.eslintrc` file in the project's root folder with following content:
 
@@ -108,6 +110,36 @@ Next create `.eslintrc` file in the project's root folder with following content
   ]
 }
 ```
+
+But important section (from Prettier perspective) is:
+
+```json
+{
+  ...
+  "extends": [
+    ...
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    ...
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "semi": false,
+        "tabWidth": 2
+      }
+    ],
+    ...
+  },
+  ...
+}
+```
+
+In `extends` section there should be as last entry `plugin:prettier/recommended`. It overrides previous extensions. This is important because we want to avoid conflicts between other ESLint rules and Prettier.
+
+In `rules` section you can find prop `prettier/prettier` which defines prettier rules that ESLint should respect. In this example we want to use single quotes and no semicolon.
 
 ### For stylelint
 
