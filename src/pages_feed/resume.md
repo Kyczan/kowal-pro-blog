@@ -72,6 +72,7 @@ I like creating web applications especially with new technologies. I am an exper
 
 ## 📜 Courses
 
+- **Jul 2021** Advanced Git (kursgita.pl)
 - **May 2015** UX and Usability in Web Applications (ConceptLabs)
 - **Nov 2014** Protecting and Attacking Web Applications (Niebezpiecznik.pl)
 - **Aug 2013** Scrum and Agile
