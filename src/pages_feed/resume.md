@@ -11,7 +11,7 @@ I like creating web applications especially with new technologies. I am an exper
 
 ## 🕵🏻‍♂️ Personal data
 
-- **Mail:** [krystian@kowal.pro](mailto:krystian@kowal.pro)
+- **Mail:** [cv@kowal.pro](mailto:cv@kowal.pro)
 - **City:** Wrocław, Poland
 - **English:** Advanced in speech and writing
 - **LinkedIn:** [https://www.linkedin.com/in/krisu-kowal](https://www.linkedin.com/in/krisu-kowal)
