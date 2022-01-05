@@ -299,7 +299,6 @@ img.emoji {
 .content article p {
   text-align: justify;
   text-justify: auto;
-  hyphens: auto;
 }
 
 .content article .post-date {

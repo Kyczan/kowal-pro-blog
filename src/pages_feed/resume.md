@@ -4,7 +4,7 @@
 
 ## 👨🏻‍💻 JavaScript Developer
 
-`JavaScript` `TypeScript` `ReactJS` `Redux` `NodeJS` `HTML5` `CSS3` `REST` `SQL` `PLSQL` `Git` `Webpack` `Scrum` `Linux`
+`JavaScript` `TypeScript` `ReactJS` `Redux` `NodeJS` `HTML5` `CSS3` `REST` `SQL` `Git` `Webpack` `Scrum` `Linux`
 
 I ❤️ JavaScript.  
 I like creating web applications especially with new technologies. I am an expert in frontend but I also have strong knowledge in backend (JS). My strengths are analytical thinking and problem solving. In free time I like to learn about new technologies and innovations.
@@ -23,7 +23,7 @@ I like creating web applications especially with new technologies. I am an exper
 
   **Role:** IT Software Engineer (Associate Director)  
   **Responsibilities:** Creating web applications using React+Redux; collaborating with business to introduce better applications; improving existing apps  
-  **Technologies:** `JavaScript` `ReactJS` `Redux` `Saga` `StencilJS` `Webpack` `npm` `NodeJS` `Git` `Github` `Gitlab` `CSS3` `LESS` (CSS preprocessor) `HTML5` `D3` (JS library) `Scrum`  
+  **Technologies:** `JavaScript` `TypeScript` `ReactJS` `Redux` `Saga` `StencilJS` `Webpack` `npm` `NodeJS` `Git` `Github` `Gitlab` `CSS3` `LESS` `HTML5` `D3` (JS library) `Scrum`  
   **Projects:**
   - Dashboard - brand new, fully responsive homepage for UBS clients located in USA (React)
   - Interests Questionnaire - web app that allows user to set his mindset by completing survey (React)
@@ -72,7 +72,8 @@ I like creating web applications especially with new technologies. I am an exper
 
 ## 📜 Courses
 
-- **Jul 2021** Advanced Git (kursgita.pl)
+- **Oct 2021** Frontend Architecture ([architekturanafroncie.pl](https://architekturanafroncie.pl/))
+- **Jul 2021** Advanced Git ([kursgita.pl](https://kursgita.pl/))
 - **May 2015** UX and Usability in Web Applications (ConceptLabs)
 - **Nov 2014** Protecting and Attacking Web Applications (Niebezpiecznik.pl)
 - **Aug 2013** Scrum and Agile
@@ -81,10 +82,9 @@ I like creating web applications especially with new technologies. I am an exper
 ## 🚲 Hobbies
 
 - Creating small useful (for me) web apps
-- Ricing my Arch Linux
 - Rollerblading
 - Making plastic models and creating dioramas
 
 ## 😴 Disclaimer
 
-> I hereby agree to the processing of my personal details included in this document due to the recruitment process. I agree voluntarily and I declare that I was informed of my rights vested on me pursuant to the Personal Data Protection Act of 29 August 1997 (Journal of Laws.02.101.926.j.t.).
+> I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
